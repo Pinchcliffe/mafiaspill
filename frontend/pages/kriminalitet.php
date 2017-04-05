@@ -51,7 +51,7 @@ require_once("frontend/templates/Includes/left.php");
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="btn btn-primary btn-block">Utfør</button>
+            <button type="button" class="btn btn-gradient btn-block">Utfør</button>
         </div>
     </div>
 
