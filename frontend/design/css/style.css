@@ -1,0 +1,204 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
+}
+
+h5 {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+}
+
+a {
+    transition: color 0.2s ease-in-out;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+}
+
+i {
+  color: #378a75;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #378a75;
+    background-color: #0e0e0e;
+}
+
+.top-navbar {
+  width: 100%;
+  color: #FFF;
+  background-color: #000;
+  margin-left: -15px;
+
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #378a75;
+    background-color: transparent;
+}
+
+.top-navbar a {
+  color: #FFF;
+  font-weight: 100;
+}
+
+.top-navbar a:hover {
+  color: #202020;
+}
+
+.top-navbar .link {
+  font-size: 12px;
+  background: transparent;
+}
+
+.mynavbar {
+  background: linear-gradient(to right, rgb(72, 72, 72), rgb(0, 0, 0));
+  border-radius: 0px;
+  border: none;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    color: #378a75;
+    background: transparent;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    color: #FFF;
+    text-align: left;
+    list-style: none;
+    background-color: #1e1f1f;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgb(37, 40, 45);
+    border-radius: 0;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 500;
+    line-height: 1.42857143;
+    color: #378a75;
+    white-space: nowrap;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #23262b;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #215649;
+    text-decoration: none;
+    background-color: rgba(245, 245, 245, 0);
+}
+
+#main-image {
+    background-image: url('/images/main-image.png');
+    width: 100%;
+    height: 166px;
+    background-size: cover;
+}
+
+.gradient-border {
+  background: linear-gradient(to right, rgb(76, 140, 128), rgba(55, 119, 120, 1));
+  height: 3px;
+  width: 100%;
+}
+
+.no-top {
+  margin-top: 0;
+}
+
+#content {
+  color: #FFF;
+  padding: 15px;
+  min-height: 560px;
+  background: #202020;
+  opacity: 0.8;
+}
+
+#content img {
+  opacity: 1;
+}
+
+#left {
+  color: #FFF;
+  padding: 15px;
+  min-height: 560px;
+  background: #202020;
+  opacity: 0.8;
+}
+
+#right {
+  color: #FFF;
+  padding: 15px;
+  min-height: 560px;
+  background: #202020;
+  opacity: 0.8;
+}
+
+.action {
+  text-decoration: none;
+  color: #FFF;
+  text-shadow:;
+  font-size: 12px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+}
+
+.action:hover {
+  color: #ccc;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border: 0;
+    border-top: 1px solid #23262b;
+}
+
+.meny-avatar {
+  margin-top: 15px;
+}
+
+/* Column gitter */
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 15px;
+}
