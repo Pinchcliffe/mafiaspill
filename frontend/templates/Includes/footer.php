@@ -1,6 +1,6 @@
 <div class="row top-15">
     <div class="col-md-12">
-        <div id="footer">
+        <div class="footer">
             <h5 class="no-top text-shadow text-center">Mafiaspill &copy; <?= date('Y') ?></h5>
         </div>
     </div>

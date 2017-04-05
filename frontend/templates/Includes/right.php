@@ -1,6 +1,6 @@
 <div class="col-md-2">
     <div class="gradient-border"></div>
-    <div id="right">
+    <div class="right">
         <h5 class="no-top text-shadow"><i class="fa fa-bars"></i> Meny</h5>
         <hr class="mafia-hr">
         <img class="meny-avatar img-responsive" src="https://i.imgur.com/TKk2Nit.png" />

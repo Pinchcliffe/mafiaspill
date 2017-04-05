@@ -14,7 +14,7 @@ require_once("frontend/templates/Includes/left.php");
 
     <div class="col-md-8">
         <div class="gradient-border"></div>
-        <div id="content">
+        <div class="content">
             <h5 class="no-top"><i class="fa fa-home"></i> Kriminalitet</h5>
             <hr class="mafia-hr">
             <img class="content-banner img-responsive" src="frontend/design/images/banners/kriminalitet.png" />
