@@ -4,24 +4,10 @@
 
 var valgt = document.querySelector('#valgt1');
 
-valgt.onchange = function() {
-    // Get span and div
-    if(this.checked) {
-        var elements = document.querySelectorAll('.crimeOption');
-
-        // Loop elements & add class
-        for(var i = 0; i < elements.length; i++) {
-            if (elements[i].classList)
-                elements[i].classList.add("checked");
-            else
-                elements[i].className += ' checked';
-        }
-    }
-};
-
 //jQuery implementation
-$('#valgt').change(function() {
+$('input[type="radio"]').click(function() {
+    $('.crimeOption').removeClass('checked');
     if($(this).is(':checked')) {
-        $('.crimeOption').addClass('checked');
+        $(this).closest('.crimeOption').addClass('checked');
     }
 });
