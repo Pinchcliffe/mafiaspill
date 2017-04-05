@@ -21,7 +21,7 @@ require_once("frontend/templates/Includes/left.php");
             <hr class="mafia-hr">
             <h4 class="text-center">Rankbar</h4>
             <div class="progress">
-                <div class="progress-bar mafia-progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <div class="progress-bar mafia-progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
                     <span class="text-shadow">50%</span>
                 </div>
             </div>
