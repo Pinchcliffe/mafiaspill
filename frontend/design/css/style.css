@@ -19,7 +19,27 @@ a {
 }
 
 i {
-  color: #378a75;
+    color: #378a75;
+}
+
+.content thead {
+    background-color: #2b2b2b;
+    border-top: 1px solid #397979;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 0;
+}
+
+.checked {
+    background: linear-gradient(to right, rgb(76, 140, 128), rgba(55, 119, 120, 1));
+}
+
+.table>tbody>tr.active>td, .table>tbody>tr.active>th, .table>tbody>tr>td.active, .table>tbody>tr>th.active, .table>tfoot>tr.active>td, .table>tfoot>tr.active>th, .table>tfoot>tr>td.active, .table>tfoot>tr>th.active, .table>thead>tr.active>td, .table>thead>tr.active>th, .table>thead>tr>td.active, .table>thead>tr>th.active {
+    background: linear-gradient(to right, rgb(76, 140, 128), rgba(55, 119, 120, 1));
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
