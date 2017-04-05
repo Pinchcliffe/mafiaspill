@@ -1,7 +1,7 @@
 <div class="col-md-2">
     <div class="gradient-border"></div>
     <div id="right">
-        <h5 class="no-top"><i class="fa fa-bars"></i> Meny</h5>
+        <h5 class="no-top text-shadow"><i class="fa fa-bars"></i> Meny</h5>
         <hr class="mafia-hr">
         <img class="meny-avatar img-responsive" src="https://i.imgur.com/TKk2Nit.png" />
         <hr class="mafia-hr">
@@ -20,5 +20,4 @@
     </div>
 </div>
 
-</div>
 </div>

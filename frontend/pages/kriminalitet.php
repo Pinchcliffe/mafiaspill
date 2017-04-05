@@ -15,10 +15,11 @@ require_once("frontend/templates/Includes/left.php");
     <div class="col-md-8">
         <div class="gradient-border"></div>
         <div id="content">
-            <h5 class="no-top"><i class="fa fa-home"></i> Kontakt</h5>
-            <img class="content-banner img-responsive" src="/images/banners/hovedkvarter.png" />
+            <h5 class="no-top"><i class="fa fa-home"></i> Kriminalitet</h5>
             <hr class="mafia-hr">
-            <h4 class="text-center">Kontakt oss i dag</h4>
+            <img class="content-banner img-responsive" src="frontend/design/images/banners/kriminalitet.png" />
+            <hr class="mafia-hr">
+            <h4 class="text-center">Ran butikk</h4>
         </div>
     </div>
 
