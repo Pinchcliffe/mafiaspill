@@ -15,7 +15,7 @@
                 <hr class="mafia-hr">
                 <ul class="actions list-unstyled">
                     <a href="?side=krim"><li class="action">Kriminalitet</li></a>
-                    <a href="?side="><li class="action">Biltyveri</li></a>
+                    <a href="?side=biltyveri"><li class="action">Biltyveri</li></a>
                     <a href="?side="><li class="action">Innbrudd</li></a>
                     <a href="?side="><li class="action">Utpressing</li></a>
                 </ul>

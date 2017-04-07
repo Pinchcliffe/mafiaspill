@@ -7,6 +7,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 
 .text-shadow {
@@ -20,28 +21,6 @@ a {
 
 i {
     color: #378a75;
-}
-
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 0px;
 }
 
 .btn.focus, .btn:focus, .btn:hover {
@@ -77,7 +56,7 @@ i {
 }
 
 .checked {
-    background: linear-gradient(to right, rgb(76, 140, 128), rgba(55, 119, 120, 1));
+    background: #2b2b2b;
 }
 
 .table>tbody>tr.active>td, .table>tbody>tr.active>th, .table>tbody>tr>td.active, .table>tbody>tr>th.active, .table>tfoot>tr.active>td, .table>tfoot>tr.active>th, .table>tfoot>tr>td.active, .table>tfoot>tr>th.active, .table>thead>tr.active>td, .table>thead>tr.active>th, .table>thead>tr>td.active, .table>thead>tr>th.active {
@@ -90,7 +69,6 @@ i {
 }
 
 .top-navbar {
-  width: 100%;
   color: #FFF;
   background-color: #000;
   margin-left: -15px;

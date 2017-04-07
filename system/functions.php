@@ -17,7 +17,9 @@ function getPage() {
         elseif($page == "krim") {
             require_once("frontend/pages/kriminalitet.php");
         }
-
+        elseif($page == "biltyveri") {
+            require_once("frontend/pages/biltyveri.php");
+        }
     }
     else {
         require_once("frontend/pages/hovedkvarter.php");
