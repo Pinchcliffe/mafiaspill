@@ -35,11 +35,11 @@
             <ul class="nav navbar-nav navbar-right">
                 <form class="form-inline">
                     <div class="form-group">
-                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                        <label class="sr-only" for="exampleInputEmail3" required>Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <label class="sr-only" for="exampleInputPassword3">Password</label>
+                        <label class="sr-only" for="exampleInputPassword3" required>Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
                     </div>
                     <div class="checkbox">

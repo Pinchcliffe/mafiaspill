@@ -22,15 +22,15 @@ require_once("frontend/templates/Includes/header.php");
             <form>
                 <div class="form-group">
                     <label for="username">Ønsket brukernavn</label>
-                    <input type="text" class="form-control" id="username" placeholder="Ønsket brukernavn">
+                    <input type="text" class="form-control" id="username" placeholder="Ønsket brukernavn" required>
                 </div>
                 <div class="form-group">
                     <label for="password">Ønsket passord</label>
-                    <input type="password" class="form-control" id="password" placeholder="Ønsket passord">
+                    <input type="password" class="form-control" id="password" placeholder="Ønsket passord" required>
                 </div>
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox"> Jeg godtar betingelser
+                        <input type="checkbox" required> Jeg godtar betingelser
                     </label>
                 </div>
                 <button type="submit" class="btn btn-gradient">Registrer</button>
