@@ -29,6 +29,30 @@
       <a class="navbar-brand" href="#">Mafiasquad</a>
     </div>
 
+    <?php if($page == "logginn" || $page == "registrer") { ?>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputPassword3">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-gradient">Sign in</button>
+                </form>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    <?php } else { ?>
+
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
@@ -43,5 +67,6 @@
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
+      <?php } ?>
   </div><!-- /.container-fluid -->
 </nav>

@@ -14,6 +14,12 @@ function getPage() {
         if($page == "hovedkvarter") {
             require_once("frontend/pages/hovedkvarter.php");
         }
+        elseif($page == "logginn") {
+            require_once("frontend/pages/login.php");
+        }
+        elseif($page == "registrer") {
+            require_once("frontend/pages/register.php");
+        }
         elseif($page == "krim") {
             require_once("frontend/pages/kriminalitet.php");
         }
